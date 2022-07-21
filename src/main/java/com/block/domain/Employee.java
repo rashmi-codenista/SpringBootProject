@@ -5,6 +5,14 @@ public class Employee {
 	
 	String name;
 	int id;
+	String deparment;
+	
+	public String getDeparment() {
+		return deparment;
+	}
+	public void setDeparment(String deparment) {
+		this.deparment = deparment;
+	}
 	public String getName() {
 		return name;
 	}
